@@ -1,0 +1,24 @@
+﻿{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": "CodeExample.sln",
+          "exclude": [ "**/bin/**", "**/obj/**" ]
+        }
+      ],
+      "dest": "obj/temp"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.yml" ],
+        "src": "obj/temp",
+        "dest": "api"
+      }
+    ],
+    "overwrite": "apispec/*.md",
+    "dest": "_site"
+  }
+}

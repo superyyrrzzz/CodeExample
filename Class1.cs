@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeExample
+﻿namespace CodeExample
 {
     public class Class1
     {
+        /// <summary>
+        /// This is a test method with example in overwrite files
+        /// </summary>
+        public void Foo() {}
     }
 }

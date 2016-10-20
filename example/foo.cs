@@ -1,0 +1,6 @@
+...
+
+var c = new Class1();
+c.Foo();
+
+...
